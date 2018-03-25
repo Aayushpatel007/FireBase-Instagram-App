@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aayush.startfirebase.SetupActivity">
+
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/n"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/setupimageButton"
+
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:background="@color/cardview_light_background" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+
+        android:background="@drawable/input_outline"
+        android:padding="15dp"
+        android:id="@+id/setupnameid"
+        android:layout_marginTop="30dp"
+        android:hint="ENTER NAME"
+
+        android:singleLine="true"
+        android:layout_marginRight="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00c0cc"
+            android:id="@+id/setupbuttonid"
+            android:layout_centerHorizontal="true"
+            android:text="Finish Setup"
+            android:textSize="19dp"
+            android:textColor="@android:color/background_light"
+
+            android:layout_gravity="center_horizontal|center"
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>

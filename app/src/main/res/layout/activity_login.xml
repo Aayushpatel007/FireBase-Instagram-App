@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aayush.startfirebase.Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00c0cc"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="@android:color/background_light"
+        android:textSize="45dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.5"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/loginemailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input_outline"
+            android:gravity="center"
+            android:hint="ENTER EMAIL"
+            android:padding="15dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/loginpasswordid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input_outline"
+            android:gravity="center"
+            android:hint="ENTER PASSWORD"
+            android:padding="15dp"
+            android:singleLine="true" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/googlelogin"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></com.google.android.gms.common.SignInButton>
+
+        <Button
+            android:id="@+id/registeraccbuttonid"
+            android:layout_width="match_parent"
+android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|center"
+            android:background="@android:color/background_light"
+            android:fontFamily="monospace"
+            android:text="No account Yet?Create One"
+            android:textColor="#00c0cc"
+
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/loginbuttonid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|center"
+            android:background="#00c0cc"
+            android:fontFamily="monospace"
+            android:text="LOGIN USER"
+            android:textColor="@android:color/background_light"
+
+            android:textSize="19dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

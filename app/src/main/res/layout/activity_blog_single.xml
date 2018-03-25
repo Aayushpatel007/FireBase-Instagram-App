@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_blog_single"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.aayush.startfirebase.BlogSingleActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/singleimageid"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@color/authui_colorAccent"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:id="@+id/removepostid"
+    android:layout_weight="0.22"
+    android:background="@android:color/background_light"
+    android:textColor="#00c0c0"
+    android:textSize="35dp"
+    android:fontFamily="monospace"
+    android:text="remove post"/>
+
+
+
+
+
+</LinearLayout>

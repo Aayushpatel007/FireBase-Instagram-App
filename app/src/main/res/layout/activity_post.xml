@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_post"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    tools:context="com.example.aayush.startfirebase.PostActivity">
+
+
+    <ImageButton
+        android:id="@+id/imagebuttonid"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+android:padding="5dp"
+android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input"
+
+        android:src="@drawable/placeholder" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/input_outline"
+        android:padding="15dp"
+        android:id="@+id/nameid"
+        android:layout_marginTop="20dp"
+        android:hint="ENTER NAME"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/input_outline"
+        android:padding="35dp"
+        android:id="@+id/descrid"
+        android:layout_marginTop="20dp"
+        android:hint="DESCRIPTION"
+        android:gravity="center"
+        android:layout_marginRight="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/input_outline"
+        android:padding="15dp"
+        android:id="@+id/priceid"
+        android:layout_marginTop="20dp"
+        android:hint="ENTER PRICE"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_marginRight="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00c0cc"
+        android:id="@+id/buttonid"
+        android:layout_centerHorizontal="true"
+        android:text="POST"
+        android:textColor="@android:color/background_light"
+
+        android:layout_gravity="center_horizontal|center"
+        />
+</LinearLayout>
+</LinearLayout>
